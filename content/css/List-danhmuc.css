@@ -1,0 +1,118 @@
+:root{
+    /* ---- project color ----  */
+    --white_line: #fff;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+    /* ---- admin background color ----  */
+    --background_pink: #ffcdc8;
+    --background_grey: #F8EDE3;
+    --background_red: #EB1D36;
+    --background_blue: #3AB0FF;
+    /* ---- color text ----  */
+    --text_white : #fff;
+    --text_black : #000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Patrick+Hand&display=swap');
+.Admin--content--container
+{
+    display: flex;
+    flex-direction: column;
+}
+/* ************** TITLE *****************  */
+.Admin--content--container--title
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--gray_line);
+}
+.Admin--content--container--title h1 
+{
+    margin-left: 3rem;
+    animation: text_BX 2s linear;
+}
+@keyframes text_BX 
+{
+    from
+    {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    to 
+    {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+/* ************** TABLE *****************  */
+.Admin--content--container--table
+{
+    flex: 7;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+.Admin--content--container--table--box
+{
+    margin-top: 2rem;
+}
+.Admin--content--container--table--box table
+{
+    background: var(--gray_text2);
+}
+.Admin--content--container--table--box table tr
+{
+    background: #fff;
+}
+.Admin--content--container--table--box table tr td:nth-child(2),
+.Admin--content--container--table--box table tr td:nth-child(3),
+.Admin--content--container--table--box table tr td:nth-child(4)
+{
+    text-align: center;
+    padding: 0.3rem 5rem;
+}
+.Admin--content--container--table--box table tr td:nth-child(1)
+{
+    padding: 0.3rem 2rem;
+    text-align: center;
+}
+.Admin--content--container--table--box table tr td:nth-child(3) input
+{
+    padding: 0.2rem 2rem;
+    background: var(--background_grey);
+    transition: 0.5s;
+    border: none;
+    border-radius: 0.2rem;
+}
+.Admin--content--container--table--box table tr td:nth-child(4) input:hover
+{
+    background: var(--background_blue);
+    color: #fff;
+}
+.Admin--content--container--table--button
+{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.Admin--content--container--table--button input
+{
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background: var(--background_grey);
+    border: none;
+    transition: 0.5s;
+    border-radius: 0.3rem;
+}
+.Admin--content--container--table--button input:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: var(--background_pink);
+}

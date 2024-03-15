@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Patrick+Hand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+html{
+    font-size: 62,5%;
+}
+:root{
+    --white_line: #fff;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #daa39e;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background: #edb2ab;
+    border-radius: 50px;
+}

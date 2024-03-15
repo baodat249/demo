@@ -1,0 +1,34 @@
+.container--regester--content--form{
+    width: 500px;
+    height: 500px;
+    filter: blur(30%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+} 
+.container--regester--content--form--title h3{
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing:normal;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.container--regester--content--form--input .address,
+.container--regester--content--form--input .phone
+{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background: none;
+    outline: none;
+    margin: 15px 70px;
+    padding: 0 20px;
+    color: white;
+}

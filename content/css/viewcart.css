@@ -1,0 +1,94 @@
+:root{
+    /* ---- project color ----  */
+    --white_line: #fff;
+    --black_line: #000;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+    /* ---- admin background color ----  */
+    --background_pink: #ffcdc8;
+    --background_grey: #F8EDE3;
+    --background_red: #EB1D36;
+    --background_white: #fff;
+    --background_black: #000;
+    /* ---- color text ----  */
+    --text_white : #fff;
+    --text_black : #000;
+  }
+  /* ---------------- CART -----------------  */
+  .container--background--menu
+  {
+    height: 5rem;
+    background: var(--background_black);
+  }
+  .container--cart
+  {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+  .container--cart table 
+  {
+    background: var(--background_black);
+  }
+  .container--cart table tr th, 
+  .container--cart table tr td
+  {
+    background: var(--background_white);
+    text-align: center;
+  }
+  .container--cart table tr td img
+  {
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .container--cart table tr td:nth-child(4) input
+  {
+    text-align: center;
+    width: 20%;
+    background: transparent;
+    border: none;
+  }
+  .container--cart table tr td,
+  .container--cart table tr th
+  {
+    padding: 0 1rem;
+  }
+  .container--cart table tr td:nth-child(6) input
+  {
+    padding: 0.3rem 1rem;
+    border: none;
+    background: var(--background_pink);
+    transition: 0.5s;
+  }
+  .container--cart table tr td:nth-child(6) input:hover
+  {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .container--table--button
+  {
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  .container--table--button input
+  {
+    padding: 0.3rem 1rem;
+    border: none;
+    background: var(--background_pink);
+    transition: 0.5s;
+  }
+  .container--table--button input:hover
+  {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }

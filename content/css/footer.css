@@ -1,0 +1,135 @@
+.footer{
+    width: 100%;
+    height: 65vh;
+    background-color: #353535;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.footer__top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    border-bottom: 1px solid gray;
+}
+.footer__introduce{
+    width: 25%;
+    height: 80%;
+}
+.footer__introduce__title{
+    position: relative;
+    height: 50px;
+}
+.footer__introduce__title__logo{
+    display: flex;
+    
+}
+.footer__introduce__title__logo img{
+    position: absolute;
+    left: 10%;
+    
+}
+.footer__introduce__title__logo h3{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white_text);
+}
+.footer__title__candle{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    color: var(--white_text);
+    font-size: 0.8rem;
+}
+.footer__introduce__content{
+    width: 100%;
+}
+.footer__introduce__content p{
+    font-size: 0.8rem;
+    color: var(--white_text);
+    padding: 30px;
+}
+.footer__introduce__social{
+    padding-left: 5%;
+}
+.footer__introduce__social ion-icon{
+    font-size: 1.5rem;
+    color: var(--white_text);
+    padding: 0 10px;
+}
+
+.footer__job{
+    width: 20%;
+    height: 80%;
+}
+.footer__job__title{
+    font-size: 1.4rem;
+    color: var(--white_text);
+    text-align: center;
+    padding: 20px 0;
+}
+.footer__job__content p{
+    font-size: 0.8rem;
+    color: var(--white_text);
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+.footer__help{
+    width: 20%;
+    height: 80%;
+}
+.footer__help__title{
+    font-size: 1.4rem;
+    color: var(--white_text);
+    text-align: center;
+    padding: 20px 0;
+}
+.footer__help__content p{
+    font-size: 0.8rem;
+    color: var(--white_text);
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+
+
+.footer__contact{
+    width: 25%;
+    height: 80%;
+}
+.footer__contact__title{
+    font-size: 1.4rem;
+    color: var(--white_text);
+    text-align: center;
+    padding: 20px 0;
+}
+.footer__contact__content p{
+    font-size: 0.8rem;
+    color: var(--white_text);
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+.footer__bottom{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__bottom p{
+    color: var(--white_text);
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

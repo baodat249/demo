@@ -1,0 +1,108 @@
+:root{
+    /* ---- project color ----  */
+    --white_line: #fff;
+    --black_line: #000;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+    /* ---- admin background color ----  */
+    --background_pink: #ffcdc8;
+    --background_grey: #F8EDE3;
+    --background_red: #EB1D36;
+    --background_white: #fff;
+    --background_black: #000;
+    /* ---- color text ----  */
+    --text_white : #fff;
+    --text_black : #000;
+  }
+.container--shop--goods--title
+{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    border-bottom: 0.1rem solid var(--gray_line) ;
+    border-top: 0.1rem solid var(--gray_line) ;
+    text-align: center;
+}
+.container--shop--goods--title h2 
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.container--shop--goods--show--type
+{
+  flex: 5;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.container--shop--goods--show--type--product
+{
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container--shop--goods--show--type--product--image
+{
+  flex: 5;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container--shop--goods--show--type--product--info{
+  flex: 1;
+  padding: 1rem;
+  font-weight: 600;
+}
+.container--shop--goods--show--type--product--info a
+{
+  text-transform:capitalize;
+  margin-top: 1rem;
+  transition: 0.5s;
+  position: relative;
+  color: #000;
+}
+.container--shop--goods--show--type--product--info a::before
+{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 0.1rem;
+  width: 0%;
+  background: var(--pink_bold);
+  transition: 0.5s;
+}
+.container--shop--goods--show--type--product--info a:hover::before
+{
+  width: 100%;
+  opacity: 1;
+}
+.container--shop--goods--show--type--product--info form input
+{
+  margin-top: 0.5rem;
+  background: var(--background_pink);
+  color: black;
+  border: none;
+  transition: 0.5s;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+.container--shop--goods--show--type--product--info  form input:hover
+{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

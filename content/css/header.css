@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Patrick+Hand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+*:focus
+{
+    outline: none;
+}
+html{
+    font-size: 62,5%;
+}
+:root{
+    --white_line: #fff;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background: #edb2ab;
+    border-radius: 50px;
+}
+/* ---- container ----  */
+.container--menu
+{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.269);
+    position: fixed;
+    z-index: 1;
+    border-bottom: 0.1rem solid var(--white_line);
+}
+/* ---- LOGO ----  */
+.container--menu--logo
+{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container--menu--logo h3{
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white_text);
+}
+.container--menu--logo p{
+    font-family: 'Dancing Script';
+    font-size: 1.2rem;
+    color: var(--white_text);
+}
+/* ---- MENU ----  */
+.container--menu header
+{
+    flex: 5;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container--menu header ul 
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+}
+.container--menu header ul li a 
+{
+    padding: 0.3rem 1rem;
+    position: relative;
+    color: var(--white_text);
+    font-weight: 600;
+}
+.container--menu header ul li a::before
+{
+    position: absolute;
+    content: '';
+    left: 1rem;
+    bottom: 0;
+    width: 0%;
+    height: 0.2rem;
+    background: var(--pink_bold);
+    transition: 0.5s;
+    border-radius: 1rem;
+}
+.container--menu header ul li a:hover::before
+{
+    width: 60%;
+}
+/* ---- header_second ----  */
+.container--menu header ul li
+{
+    position: relative;
+}
+.container--menu header ul li ul
+{
+    
+    /* display: none; */transition: 0.5s;
+    overflow: hidden;
+    height: 0rem;
+    background: #353535;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3.2rem;
+    width: 10rem;
+    opacity: 0;
+}
+.container--menu header ul li ul li a 
+{
+    color: var(--white_text);
+}
+.container--menu header ul li:nth-child(3):hover ul
+{
+    height: 10rem;
+    opacity: 1;
+}
+/* ---------------- USER --------------  */
+.container--menu--user
+{
+    flex: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+.container--menu--user ion-icon 
+{
+    color: var(--white_text);
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.container--menu--user ion-icon:hover
+{
+    color: var(--pink_bold);
+}
+.container--menu--user p 
+{
+    color: var(--white_text);
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* ----------------- TAB USER ----------------  */
+.container--menu--user--tab
+{
+    display: none;
+}
+.container--menu--user--tab a 
+{
+    color: var(--white_text);
+    transition: 0.5s;
+    position: relative;
+}
+.container--menu--user--tab a:hover
+{
+    color: var(--pink_line);
+}

@@ -1,0 +1,56 @@
+.Admin--content--container--form_email
+{
+    padding: 1rem;
+}
+.Admin--content--container--form_email form 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.Admin--content--container--form_email form  input
+{
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 0.05rem solid black;
+    width: 50%;
+}
+
+.Admin--content--container--form_email form button
+{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    transition: 0.5s;
+    background: pink;
+}
+.Admin--content--container--form_email form button:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Admin--content--container--form_susscess
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.Admin--content--container--form_susscess a
+{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    transition: 0.5s;
+    background: pink;
+    color: #000;
+}
+
+.Admin--content--container--form_susscess a:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

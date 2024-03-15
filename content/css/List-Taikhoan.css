@@ -1,0 +1,60 @@
+.Admin--content--container--table--box--user
+{
+    width: 100%;
+    padding: 1rem;
+}
+.Admin--content--container--table--box--user form
+{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.Admin--content--container--table--box--user form input:nth-child(1)
+{
+    padding: 1rem;
+    height: 2rem;
+    width: 30%;
+}
+.Admin--content--container--table--box--user select
+{
+    width: 10%;
+}
+.Admin--content--container--table--box--user form input:nth-child(3)
+{
+    width: 10%;
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+    border: none;
+}
+.Admin--content--container--table--box--user form input:nth-child(3):hover
+{
+    background: #000;
+    color: #fff;
+}
+/* --------------- TABLE ----------------- */
+.Admin--content--container--table--box--user table
+{
+    background: rgb(0, 0, 0);
+}
+.Admin--content--container--table--box--user table tr td 
+{
+    background: #fff;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+.Admin--content--container--table--box--user table tr td a input
+{
+    background: pink;
+    color: #000;
+    transition: 0.5s;
+    border: none;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+}
+.Admin--content--container--table--box--user table tr td a input:hover
+{
+    background: #000;
+    color: #fff;
+}

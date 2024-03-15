@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Patrick+Hand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+
+:root{
+    /* ---- project color ----  */
+    --white_line: #fff;
+    --black_line: #000;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+    /* ---- admin background color ----  */
+    --background_pink: #ffcdc8;
+    --background_grey: #F8EDE3;
+    --background_red: #EB1D36;
+    --background_white: #fff;
+    --background_black: #000;
+    /* ---- color text ----  */
+    --text_white : #fff;
+    --text_black : #000;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background: #edb2ab;
+    border-radius: 50px;
+}

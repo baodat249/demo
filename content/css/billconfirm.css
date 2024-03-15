@@ -1,0 +1,83 @@
+:root{
+    /* ---- project color ----  */
+    --white_line: #fff;
+    --black_line: #000;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+    /* ---- admin background color ----  */
+    --background_pink: #ffcdc8;
+    --background_grey: #F8EDE3;
+    --background_red: #EB1D36;
+    --background_white: #fff;
+    --background_black: #000;
+    /* ---- color text ----  */
+    --text_white : #fff;
+    --text_black : #000;
+  }
+.container--cart h2
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.container--cart--table--box
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 0.1rem solid var(--gray_text2);
+    border-top: 0.1rem solid var(--gray_text2);
+}
+.container--cart--table--info
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--gray_text2);
+}
+.container--cart--table--info table
+{
+    margin-bottom: 1rem;
+}
+.container--cart--table--info table td 
+{
+    padding: 0.5rem;
+}
+.container--cart--table--bill
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container--cart--table--bill table
+{
+    margin-bottom: 1rem;
+}
+.container--cart--table--bill table th 
+{
+    background: var(--background_grey);
+}
+.container--cart--table--bill table td
+{
+    text-align: center;
+}
+.container--cart--table--bill table td img 
+{
+    margin-top: 0.5rem;
+}
+.container--cart--image
+{
+    background: url(../image/img-confirm-bill.jpg) no-repeat center;
+}

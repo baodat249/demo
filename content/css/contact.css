@@ -1,0 +1,161 @@
+:root{
+    --white_line: #fff;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #daa39e;
+}
+*{
+    font-weight: 500;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    width: 98.85vw;
+    height: 60vh;
+    background-image: url(../image/candles-2138132_1920.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 100px;
+}
+.contact__img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.contact__img img{
+    width: 430px;
+    height: 600px;
+}
+.contact__content{
+    width: 65%;
+    height: 100%;
+    margin-left: 2%;
+}
+.contact__content__title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact__content__title h2{
+    font-size: 2.5rem;
+}
+.contact__content__title p{
+    font-size: 1rem;
+    color: var(--gray_text2);
+    padding-top: 10px;
+}
+.contact__content__contact{
+    width: 85%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item__contact{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--gray_text2);
+}
+.contact__content__contact__item{
+    width: 28%;
+}
+.contact__content__contact__item p{
+    font-size: 0.8rem;
+    line-height: 22px;
+    font-weight: 500;
+}
+.contact__content__form{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact__content__form input.cmt{
+    height: 100px !important;
+}
+.contact__content__form p{
+    font-size: 0.8rem;
+    padding-top: 25px;
+}
+.contact__content__form input{
+    outline: none;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.contact__content__mess{
+    width: 65%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.contact__content__mess p{
+    font-size: 0.8rem;
+}
+.contact__content__mess input{
+    width: 30%;
+    height: 35px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.map{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../image/circle.png);
+
+}
+.map__content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.map__content__iframe{
+    position: absolute;
+    left: 15%;
+}
+.map__content__img{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10%;
+
+}
+.map__content__img img{
+    width: 400px;
+    height: 300px;
+}

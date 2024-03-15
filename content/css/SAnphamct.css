@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Patrick+Hand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+:root{
+  /* ---- project color ----  */
+  --white_line: #fff;
+  --black_line: #000;
+  --gray_line: #bfbfbf;
+  --white_text: #fff;
+  --gray_text: #bfbfbf;
+  --gray_text2: #8e8e8e;
+  --opacity_bg: #5454545d;
+  --opacity_bg2: #54545491;
+  --pink_line: #ffcdc8;
+  --pink_bg: #ffdad6;
+  --pink_bold: #fdaca4;
+  /* ---- admin background color ----  */
+  --background_pink: #ffcdc8;
+  --background_grey: #F8EDE3;
+  --background_red: #EB1D36;
+  --background_white: #fff;
+  --background_black: #000;
+  /* ---- color text ----  */
+  --text_white : #fff;
+  --text_black : #000;
+}
+.container--home--detail--background_header
+{
+    height: 5rem;
+    background: #000;
+}
+/* ****************** TITLE ******************** */
+.container--home--detail--title
+{
+    height: 4rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid var(--gray_line);
+}
+.container--home--detail--title h2 
+{
+    text-transform: uppercase;
+}
+/* ***************** IMAGE ********************  */
+
+.container--home--detail--box
+{
+    height: 80vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container--home--detail--box--image
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container--home--detail--box--describe
+{
+    flex: 2;
+    padding: 1rem;
+}
+.container--home--detail--box--describe h2 
+{
+    text-transform: uppercase;
+}
+.container--home--detail--box--describe p 
+{
+    margin-top: 0.5rem;
+    font-weight: 500;
+} 
+.container--home--detail--box--describe .amount
+{
+    margin-top: 1rem;
+}
+.container--home--detail--box--describe .amount input
+{
+    text-align: center;
+    width: 5rem;
+    background: transparent;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.container--home--detail--box--describe .box_button
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.container--home--detail--box--describe .box_button a 
+{
+    color: var(--text_black);
+    background: var(--background_pink);
+    padding: 0.3rem 2rem;
+    transition: 0.5s;
+}
+.container--home--detail--box--describe .box_button a:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* ********************** COMMENT *************** */
+.container--home--comment
+{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container--home--comment--screen
+{
+    flex: 2;
+    border-top: 0.1rem solid var(--gray_line);
+    border-bottom: 0.1rem solid var(--gray_line);
+}
+.container--home--comment--screen--title h2
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.container--home--comment--screen--box
+{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container--home--comment--screen--box .BX_test
+{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    text-transform: lowercase;
+    justify-content: space-between;
+    background: var(--background_grey);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container--home--comment--screen--box .BX_test p 
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.container--home--same_kind
+{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    border-bottom: 0.1rem solid var(--gray_line);
+}
+.container--home--same_kind--goods
+{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.container--home--same_kind--goods a
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--text_black);
+    transition: 0.5s;
+}
+.container--home--same_kind--goods a:hover
+{
+    color: red;
+}

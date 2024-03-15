@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Patrick+Hand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+:root{
+    /* ---- project color ----  */
+    --white_line: #fff;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+    /* ---- admin background color ----  */
+    --background_pink: #ffcdc8;
+    --background_grey: #F8EDE3;
+    --background_red: #EB1D36;
+    --background_blue: #3AB0FF;
+    /* ---- color text ----  */
+    --text_white : #fff;
+    --text_black : #000;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background: #edb2ab;
+    border-radius: 50px;
+}
+/* ---- APP ----  */
+.App
+{
+    background: var(--background_pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---- ADMIN ----  */
+.Admin 
+{
+    width: 100%;
+    height: 97%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.5rem;
+    display: flex;
+    margin: 0.5rem;
+    background: #fff;
+}
+/* ---- HEADER ----  */
+.Admin--header
+{
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-right: 0.05rem solid var(--gray_line);
+    background: var(--background_grey)  ;
+}
+/* ---- Logo ----  */
+.Admin--header--logo
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Admin--header--logo h3
+{
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+    font-weight: 600;
+}
+.Admin--header--logo p
+{
+    font-family: 'Dancing Script';
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+/* ---- Menu ----  */
+.Admin--header--menu
+{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Admin--header--menu ul
+{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: 0.05rem solid var(--gray_line);
+    border-bottom: 0.05rem solid var(--gray_line);
+}
+.Admin--header--menu ul li 
+{
+    position: relative;
+    width: 100%;
+    height:3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.Admin--header--menu ul li:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 0.1rem solid var(--gray_line);
+}
+.Admin--header--menu ul li:hover a 
+{
+    color: var(--text_black);
+
+}
+.Admin--header--menu ul li a 
+{
+    font-weight: 600;
+    color: var(--text_black);
+}
+/* PERSON ADMISTOR */
+.Admin--header--person_admistor
+{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Admin--header--person_admistor select
+{
+    width: 10rem;
+    border: 0.05rem solid var(--gray_line);
+    background: none;
+}
+
+/* ---- APP ----  */
+.App
+{
+    background: var(--background_pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---- ADMIN ----  */
+.Admin 
+{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.5rem;
+    display: flex;
+    margin: 0.5rem;
+    background: var(--background_grey);
+}
+
+/* ---- CONTENT ----  */
+.Admin--content
+{
+    flex: 5;
+    height: 100%;
+}
+.Admin--content--container
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+

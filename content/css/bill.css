@@ -1,0 +1,133 @@
+:root{
+    /* ---- project color ----  */
+    --white_line: #fff;
+    --black_line: #000;
+    --gray_line: #bfbfbf;
+    --white_text: #fff;
+    --gray_text: #bfbfbf;
+    --gray_text2: #8e8e8e;
+    --opacity_bg: #5454545d;
+    --opacity_bg2: #54545491;
+    --pink_line: #ffcdc8;
+    --pink_bg: #ffdad6;
+    --pink_bold: #fdaca4;
+    /* ---- admin background color ----  */
+    --background_pink: #ffcdc8;
+    --background_grey: #F8EDE3;
+    --background_red: #EB1D36;
+    --background_white: #fff;
+    --background_black: #000;
+    /* ---- color text ----  */
+    --text_white : #fff;
+    --text_black : #000;
+  }
+  /* ---------------- BILL -----------------  */
+  .container--background--menu
+  {
+    height: 5rem;
+    background: var(--background_black);
+  }
+
+  .container--cart
+  {
+    display: flex;
+    margin: 2rem;
+    border-top: 0.1rem solid var(--gray_line);
+    border-bottom: 0.1rem solid var(--gray_line);
+  }
+  .container--cart--table
+  {
+    flex: 3;
+    border-left: 0.1rem solid var(--gray_line);
+    border-right: 0.1rem solid var(--gray_line);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .container--cart--table h2 
+  {
+    margin-top: 1rem;
+  }
+  .container--cart--table table 
+  {
+    margin-top: 1rem;
+    background: var(--gray_line);
+    width: 80%;
+  }
+  .container--cart--table table td
+  {
+    background: var(--background_white);
+  }
+  .container--cart--table table td:nth-child(1)
+  {
+    background: var(--background_white);
+    text-align: center;
+  }
+  .container--cart--table table tr input
+  {
+    margin-left: 0.5rem; 
+    padding: 0.5rem;
+    border: none;
+    background: transparent;
+  }
+  .container--cart--table--second tr th ,
+  .container--cart--table table tr th
+  {
+    background: var(--background_grey);
+  }
+  .container--cart--table--second td 
+  {
+    text-align: center;
+  }
+  .container--cart--table--second td img 
+  {
+    margin-top: 0.5rem;
+  }
+  .container--cart--table--second td:nth-child(5) input
+  {
+    width: 3rem;
+  }
+  .container--cart--table--second td:nth-child(7) a 
+  {
+    padding: 0.2rem 1rem;
+    background: var(--background_grey);
+    border: none;
+    transition: 0.5s;
+  }
+  .container--cart--table--second td:nth-child(7) a:hover
+  {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .container--cart--table--button
+  {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .container--cart--table--button input
+  {
+    padding: 0.2rem 1rem;
+    background: var(--background_grey);
+    border: none;
+    transition: 0.5s;
+  }
+  .container--cart--table--button input:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+  .container--cart--image
+  {
+    flex: 1;
+    background: url(../image/img-bill.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .container--cart--table--thirt
+  {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
